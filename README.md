@@ -1,2 +1,2 @@
 # SharpVision
-SharpVision ported from TurboVision by Andrew Khizniak
+SharpVision ported from TurboVision by Andrew Khizhniak
