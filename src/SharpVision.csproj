@@ -1,0 +1,386 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{261AF8AC-BE01-47C3-B399-BC117DDE1350}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ConsoleApp3</AssemblyName>
+    <AssemblyOriginatorKeyFile>Biz.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp3</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <SignAssembly>true</SignAssembly>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>FRAMEWORK20;DEBUG;TRACE;</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRules>-Microsoft.Design#CA1012;-Microsoft.Design#CA2210;-Microsoft.Design#CA1040;-Microsoft.Design#CA1005;-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1010;-Microsoft.Design#CA1011;-Microsoft.Design#CA1009;-Microsoft.Design#CA1050;-Microsoft.Design#CA1026;-Microsoft.Design#CA1019;-Microsoft.Design#CA1031;-Microsoft.Design#CA1047;-Microsoft.Design#CA1000;-Microsoft.Design#CA1048;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1061;-Microsoft.Design#CA1006;-Microsoft.Design#CA1046;-Microsoft.Design#CA1045;-Microsoft.Design#CA1038;-Microsoft.Design#CA1008;-Microsoft.Design#CA1028;-Microsoft.Design#CA1004;-Microsoft.Design#CA1035;-Microsoft.Design#CA1063;-Microsoft.Design#CA1032;-Microsoft.Design#CA1023;-Microsoft.Design#CA1033;-Microsoft.Design#CA1039;-Microsoft.Design#CA1016;-Microsoft.Design#CA1014;-Microsoft.Design#CA1017;-Microsoft.Design#CA1018;-Microsoft.Design#CA1027;-Microsoft.Design#CA1059;-Microsoft.Design#CA1060;-Microsoft.Design#CA1034;-Microsoft.Design#CA1013;-Microsoft.Design#CA1036;-Microsoft.Design#CA1044;-Microsoft.Design#CA1041;-Microsoft.Design#CA1025;-Microsoft.Design#CA1052;-Microsoft.Design#CA1053;-Microsoft.Design#CA1057;-Microsoft.Design#CA1058;-Microsoft.Design#CA1001;-Microsoft.Design#CA1049;-Microsoft.Design#CA1054;-Microsoft.Design#CA1056;-Microsoft.Design#CA1055;-Microsoft.Design#CA1030;-Microsoft.Design#CA1003;-Microsoft.Design#CA1007;-Microsoft.Design#CA1043;-Microsoft.Design#CA1024;-Microsoft.Design#CA1062;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Interoperability#CA1403;-Microsoft.Interoperability#CA1406;-Microsoft.Interoperability#CA1413;-Microsoft.Interoperability#CA1402;-Microsoft.Interoperability#CA1407;-Microsoft.Interoperability#CA1404;-Microsoft.Interoperability#CA1410;-Microsoft.Interoperability#CA1411;-Microsoft.Interoperability#CA1405;-Microsoft.Interoperability#CA1409;-Microsoft.Interoperability#CA1415;-Microsoft.Interoperability#CA1408;-Microsoft.Interoperability#CA1414;-Microsoft.Interoperability#CA1412;-Microsoft.Interoperability#CA1400;-Microsoft.Interoperability#CA1401;-Microsoft.Maintainability#CA1502;-Microsoft.Maintainability#CA1501;-Microsoft.Maintainability#CA1500;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Naming#CA1718;-Microsoft.Naming#CA1720;-Microsoft.Naming#CA1700;-Microsoft.Naming#CA1712;-Microsoft.Naming#CA1713;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1715;-Microsoft.Naming#CA1710;-Microsoft.Naming#CA1707;-Microsoft.Naming#CA1722;-Microsoft.Naming#CA1711;-Microsoft.Naming#CA1716;-Microsoft.Naming#CA1705;-Microsoft.Naming#CA1725;-Microsoft.Naming#CA1719;-Microsoft.Naming#CA1721;-Microsoft.Naming#CA1724;-Microsoft.Naming#CA1726;-Microsoft.Performance#CA1809;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1812;-Microsoft.Performance#CA1807;-Microsoft.Performance#CA1813;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1816;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1800;-Microsoft.Performance#CA1818;-Microsoft.Performance#CA1805;-Microsoft.Performance#CA1810;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Performance#CA1814;-Microsoft.Performance#CA1819;-Microsoft.Performance#CA1804;-Microsoft.Performance#CA1820;-Microsoft.Performance#CA1802;-Microsoft.Portability#CA1901;-Microsoft.Portability#CA1900;-Microsoft.Reliability#CA2000;-Microsoft.Reliability#CA2002;-Microsoft.Reliability#CA2003;-Microsoft.Reliability#CA2004;-Microsoft.Reliability#CA2006;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2100;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2110;-Microsoft.Security#CA2120;-Microsoft.Security#CA2101;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124;-Microsoft.Usage#CA2209;-Microsoft.Usage#CA2236;-Microsoft.Usage#CA2227;-Microsoft.Usage#CA2213;-Microsoft.Usage#CA2216;-Microsoft.Usage#CA2215;-Microsoft.Usage#CA2214;-Microsoft.Usage#CA2222;-Microsoft.Usage#CA2202;-Microsoft.Usage#CA1806;-Microsoft.Usage#CA2217;-Microsoft.Usage#CA2212;-Microsoft.Usage#CA2219;-Microsoft.Usage#CA2201;-Microsoft.Usage#CA2228;-Microsoft.Usage#CA2221;-Microsoft.Usage#CA2220;-Microsoft.Usage#CA2240;-Microsoft.Usage#CA2229;-Microsoft.Usage#CA2238;-Microsoft.Usage#CA2207;-Microsoft.Usage#CA2208;-Microsoft.Usage#CA2235;-Microsoft.Usage#CA2237;-Microsoft.Usage#CA2232;-Microsoft.Usage#CA2223;-Microsoft.Usage#CA2211;-Microsoft.Usage#CA2233;-Microsoft.Usage#CA2225;-Microsoft.Usage#CA2226;-Microsoft.Usage#CA2231;-Microsoft.Usage#CA2224;-Microsoft.Usage#CA2218;-Microsoft.Usage#CA2234;-Microsoft.Usage#CA2241;-Microsoft.Usage#CA2239;-Microsoft.Usage#CA2200;-Microsoft.Usage#CA1801;-Microsoft.Usage#CA2205;-Microsoft.Usage#CA2230</CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;BROWSERAPP</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Console Library|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Console Application|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+      <HintPath>..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <HintPath>..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <HintPath>..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.XML.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App\Application.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drivers\Windows.cs" />
+    <Compile Include="Editors\Editor.cs" />
+    <Compile Include="Editors\EditWindow.cs" />
+    <Compile Include="Editors\FileEditor.cs" />
+    <Compile Include="Gadgets\AsciiChart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App\Background.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Button.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gadgets\CalcDisplay.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gadgets\Calculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gadgets\CalendarView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gadgets\CalendarWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\CheckBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="StdDlg\ClickTester.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gadgets\ClockView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Cluster.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StdDlg\ColorDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StdDlg\ColorDisplay.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StdDlg\ColorGroupList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StdDlg\ColorItemList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StdDlg\ColorSelector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DateInput.cs" />
+    <Compile Include="App\Desktop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Dialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileDialogs\DirListBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StdDlg\ErrorBox.cs" />
+    <Compile Include="Drivers\Event.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileDialogs\FileDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileDialogs\FileInfoPane.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileDialogs\FileInputLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileDialogs\FileList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StdDlg\FindDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\Frame.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\Group.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gadgets\HeapView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Help\HelpViewer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Help\HelpWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="History\History.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="History\HistoryViewer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="History\HistoryWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Editors\Indicator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\InputLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Label.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ListBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ListViewer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StdDlg\LoginDialog.cs" />
+    <Compile Include="Drivers\LowLevel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Editors\Memo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\MenuBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\MenuBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\MenuView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\MoneyInput.cs" />
+    <Compile Include="StdDlg\MonoSelector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StdDlg\MouseDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StdDlg\MsgBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\MultiCheckBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Object.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ParamText.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\PasswordInput.cs" />
+    <Compile Include="App\Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gadgets\PuzzleView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gadgets\PuzzleWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\RadioButtons.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\Rect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StdDlg\ReplaceDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gadgets\Report.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\ScrollBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\Scroller.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileDialogs\SortedListBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App\StartupAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\StaticText.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\StatusLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StdDlg\StdDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gadgets\Table.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\TextView.cs" />
+    <Compile Include="TVDemo\TVDemo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Validators\Validator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\View.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drivers\W32Kbd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\Window.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Biz.snk" />
+    <None Include="Properties\app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
